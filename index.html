@@ -525,6 +525,11 @@
             color: var(--accent);
         }
         
+        .footer-links a[href="resume.pdf"]:hover {
+            background: var(--accent);
+            color: var(--bg-primary);
+        }
+        
         .footer-text {
             color: var(--text-secondary);
             font-size: 0.9rem;
@@ -652,6 +657,9 @@
                     </a>
                     <a href="tel:+917975702168" class="btn btn-secondary">
                         <i class="fas fa-phone"></i> Phone
+                    </a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-file-download"></i> Resume
                     </a>
                 </div>
             </div>
@@ -819,6 +827,25 @@
         </div>
     </section>
 
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <i class="fas fa-file-alt"></i> Resume
+            </h2>
+            <div class="project-card fade-in" style="text-align: center; padding: 40px;">
+                <i class="fas fa-file-pdf" style="font-size: 4rem; color: var(--accent); margin-bottom: 20px;"></i>
+                <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Download My Resume</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">
+                    Get the full details of my education, skills, projects, and experience.
+                </p>
+                <a href="resume.pdf" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -834,6 +861,9 @@
                 </a>
                 <a href="tel:+917975702168" aria-label="Phone">
                     <i class="fas fa-phone"></i>
+                </a>
+                <a href="resume.pdf" target="_blank" aria-label="Resume" style="font-size: 1rem; padding: 8px 16px; border: 1px solid var(--border-color); border-radius: 6px;">
+                    <i class="fas fa-file-pdf"></i> Resume
                 </a>
             </div>
             <p class="footer-text">© 2026 Mohammed Zameer. All rights reserved.</p>
